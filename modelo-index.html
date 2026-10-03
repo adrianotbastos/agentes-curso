@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{TITULO}}</title>
+<style>
+  :root {
+    --fundo: #fafaf8;
+    --texto: #1c1c1c;
+    --suave: #5f6368;
+    --linha: #e2e2de;
+    --destaque: #0b5cad;
+    --caixa: #eef3f9;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --fundo: #16181b;
+      --texto: #e8e8e6;
+      --suave: #a0a4a8;
+      --linha: #2c2f33;
+      --destaque: #7cb4f0;
+      --caixa: #1e2630;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--fundo);
+    color: var(--texto);
+    font: 17px/1.6 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 16px 48px; }
+  header { border-bottom: 1px solid var(--linha); margin-bottom: 24px; padding-bottom: 12px; }
+  header h1 { font-size: 1.6rem; margin: 0 0 4px; }
+  header .data { color: var(--suave); margin: 0; }
+  .briefing blockquote {
+    margin: 0 0 24px;
+    padding: 14px 16px;
+    background: var(--caixa);
+    border-left: 4px solid var(--destaque);
+    border-radius: 4px;
+  }
+  .briefing h2 { font-size: 1.2rem; margin: 28px 0 8px; }
+  .briefing h3 { font-size: 1.05rem; margin: 18px 0 4px; }
+  a { color: var(--destaque); overflow-wrap: anywhere; }
+  .anteriores { border-top: 1px solid var(--linha); margin-top: 36px; padding-top: 16px; }
+  .anteriores h2 { font-size: 1rem; color: var(--suave); margin: 0 0 8px; }
+  .anteriores ul { padding-left: 18px; margin: 0; }
+  footer {
+    border-top: 1px solid var(--linha);
+    margin-top: 36px;
+    padding-top: 16px;
+    color: var(--suave);
+    font-size: 0.85rem;
+  }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>{{TITULO}}</h1>
+    <p class="data">{{DATA}}</p>
+  </header>
+
+  <article class="briefing">
+{{BRIEFING}}
+  </article>
+
+  <nav class="anteriores">
+    <h2>Dias anteriores</h2>
+{{ANTERIORES}}
+  </nav>
+
+  <footer>
+    <p>Briefing gerado por um time de agentes de IA. Toda afirmação tem link para a fonte original. Opiniões e recomendações são de quem está citado, não do radar. Este conteúdo é informativo e não é recomendação de investimento.</p>
+  </footer>
+</main>
+</body>
+</html>

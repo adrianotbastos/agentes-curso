@@ -34,6 +34,7 @@ Cripto especulativa; política partidária sem efeito em juros, fiscal ou câmbi
 4. **Separar fato de opinião.** Opinião ou projeção de analista vem marcada como tal e com o nome de quem disse ("segundo [instituição]...").
 5. **Sem dados pessoais.** Nunca registre nem use dados pessoais do usuário (nome de clientes, empresa, salário, endereço), mesmo que apareçam por acidente em uma conversa.
 6. **Cabe em uma página.** Se passar, corte as notícias menos relevantes, nunca a primeira linha.
-7. **Formato de saída:** um arquivo Markdown por dia em `briefings/AAAA-MM-DD.md`.
-8. **Checklist antes de entregar:** rode os itens da seção "Observáveis" do `RADAR.md`. Se algum falhar, corrija antes de entregar.
-9. **Idioma:** português do Brasil.
+7. **Formato de saída:** um arquivo Markdown por dia em `diario/AAAA-MM-DD.md` e a página `index.html`. Anotações brutas em `fontes/`, conferência em `verificacao/`.
+8. **Ordem do time:** pesquisador → verificador → redator → guarda. Só publica com PODE PUBLICAR do guarda.
+9. **Checklist antes de entregar:** rode os itens da seção "Observáveis" do `RADAR.md`. Se algum falhar, corrija antes de entregar.
+10. **Idioma:** português do Brasil.
