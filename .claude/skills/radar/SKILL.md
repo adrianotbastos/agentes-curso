@@ -19,7 +19,7 @@ Acione o `pesquisador`. Depois confira que `fontes/AAAA-MM-DD.md` existe e tem p
 Acione o `verificador`. Depois confira que `verificacao/AAAA-MM-DD.md` existe e tem a tabela e a contagem no fim. Guarde a contagem de CONFERE.
 
 ## 3. Redator
-Acione o `redator`. Depois confira que `diario/AAAA-MM-DD.md` existe e que `index.html` foi gerado com a data de hoje.
+Acione o `redator` e informe no pedido a data e a hora reais no fuso de Brasília (pegue com o comando `date`), porque ele não tem acesso ao relógio. Depois confira que `diario/AAAA-MM-DD.md` existe e que `index.html` foi gerado com a data de hoje.
 - Se o redator avisar que falta `modelo-index.html`, anote e siga: o guarda vai barrar.
 
 ## 4. Agentes do dono

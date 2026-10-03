@@ -26,8 +26,14 @@ Crie a pasta `diario/` se não existir. Escreva nesta ordem:
 
    Cada item tem título, duas ou três linhas em tom explicativo (o fato, o porquê, o que muda para os investimentos) e o link.
 3. **Opiniões marcadas:** tudo o que veio como [OPINIÃO] aparece como opinião e diz de quem é ("Segundo o Itaú BBA, ..."). Recomendações de investimento sempre dizem quem recomendou.
-4. **O que não conferiu:** só os títulos dos itens NÃO CONFERE e NÃO ABRIU, sem conteúdo.
+4. **O que não conferiu:** uma linha por item NÃO CONFERE ou NÃO ABRIU, só com o assunto e o motivo da exclusão (exemplo: "Boletim Focus de 28/09 (fora do prazo de 48 horas)"). Não copie o título original: títulos costumam trazer números, afirmações ou recomendações, e aqui nada disso pode aparecer.
 5. **Data e hora** em que o briefing foi gerado.
+
+**Todo número tem link, sem exceção.** Nem de passagem: nada de "outras fontes citam...", consenso, faixa ou comparação sem o link e o nome do veículo logo ao lado. Se o número não está num item CONFERE com link, ele não entra. Quando duas fontes CONFERE divergem, mostre as duas, cada uma com o seu link.
+
+**Data e hora reais:** use a data e a hora reais de geração no fuso de Brasília. Nunca estime a hora; se não conseguir saber, escreva só a data.
+
+**Antes de gravar, releia o briefing como o guarda:** procure qualquer número ou afirmação sem link, inclusive na primeira linha e na seção "O que não conferiu", e corrija.
 
 O briefing precisa caber em uma página. Se passar, corte os itens menos relevantes, nunca a primeira linha.
 
