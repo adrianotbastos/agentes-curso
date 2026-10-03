@@ -35,6 +35,6 @@ Cripto especulativa; política partidária sem efeito em juros, fiscal ou câmbi
 5. **Sem dados pessoais.** Nunca registre nem use dados pessoais do usuário (nome de clientes, empresa, salário, endereço), mesmo que apareçam por acidente em uma conversa.
 6. **Cabe em uma página.** Se passar, corte as notícias menos relevantes, nunca a primeira linha.
 7. **Formato de saída:** um arquivo Markdown por dia em `diario/AAAA-MM-DD.md` e a página `index.html`. Anotações brutas em `fontes/`, conferência em `verificacao/`.
-8. **Ordem do time:** pesquisador → verificador → redator → guarda. Só publica com PODE PUBLICAR do guarda.
+8. **Ordem do time:** pesquisador → verificador → redator → guarda → comunicador. Só publica com PODE PUBLICAR do guarda. O comunicador grava o post de LinkedIn em `posts/AAAA-MM-DD.txt` e nunca publica: o autor revisa e posta.
 9. **Checklist antes de entregar:** rode os itens da seção "Observáveis" do `RADAR.md`. Se algum falhar, corrija antes de entregar.
 10. **Idioma:** português do Brasil.
